@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  margin: auto;
+  align-items: flex-start;
+}
+
+.image-section {
+  flex: 1;
+  text-align: center;
+}
+
+.text-section {
+  flex: 1.5;
+  padding: 20px;
+}
+
+.text-section h2 {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #949fac;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.text-section h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: black;
+  margin: 10px 0 20px;
+}
+
+.text-section p {
+  color: black;
+  line-height: 1.8;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.text-section ul {
+  list-style: none;
+  padding: 0;
+  color: black;
+}
+
+.text-section ul li {
+  margin: 10px 0;
+}
+
+.text-section ul li a {
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+.text-section ul li a:hover {
+  text-decoration: underline;
+}
